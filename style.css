@@ -1,93 +1,94 @@
 .navbar {
-    float: left;
-    width: 100px; 
+  float: left;
+  width: 100px;
 }
 .navbar li a {
-    color: black;
-    text-decoration: none;
-    display: block;
-    font-weight: bold;
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
 }
 .navbar li a:hover {
-    background: #FFFFFF;
-    color: #3EC5EF;
+  background: #ffffff;
+  color: #3ec5ef;
 }
 .margin {
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .gap-home {
-    margin-left: 244px;
+  margin-left: 244px;
 }
 .gap-testimoni {
-    margin-left: 70px;
-    margin-right: 245px;
+  margin-left: 70px;
+  margin-right: 245px;
 }
 .gap {
-    margin-left: 70px;
+  margin-left: 70px;
 }
 .col {
-    margin-top: 145px;
-    margin-right: 70px;
+  margin-top: 145px;
+  margin-right: 70px;
 }
 .col_margin {
-    margin-left: 30px;
-    margin-top: 250px;
+  margin-left: 30px;
+  margin-top: 250px;
 }
 .card {
-    height: 100px;
-    width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 100px;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .col-md-4 {
-    margin-top: 8px;
-    padding: 5px;
-    border-radius: 5px;
+  margin-top: 8px;
+  padding: 5px;
+  border-radius: 5px;
 }
 .card:hover {
-    transform: scale(.9);
+  transform: scale(0.9);
 }
 .card:hover::after {
-    height: 280px;
+  height: 280px;
 }
 .card:hover .con-text p {
-    margin-bottom: 0px;
-    opacity: 1;
+  margin-bottom: 0px;
+  opacity: 1;
 }
 .card:hover img {
-    transform: scale(1.25);
+  transform: scale(1.25);
 }
 .card:hover .ul {
-    transform: translate(0);
-    opacity: 1;
+  transform: translate(0);
+  opacity: 1;
 }
 
-.sub{
-    font-size: small;
-    font-weight: bold;
+.sub {
+  font-size: small;
+  font-weight: bold;
 }
 
 .v-order {
-    color: #3FC4EF;
+  color: #3fc4ef;
 }
 
 .btn-info {
-    background-image: url('/assets/logo-gofood.png');
-    background-size: 80% 90%;
-    background-color: #3FC4EF;
-    background-repeat: no-repeat;
-    margin: 1rem;
-    width: 12rem;
-    height: 3rem;
-    background-position: center;
+  background-image: url("assets/logo-gofood.png");
+  background-size: 80% 90%;
+  background-color: #3fc4ef;
+  background-repeat: no-repeat;
+  margin: 1rem;
+  width: 12rem;
+  height: 3rem;
+  background-position: center;
 }
 
 .custom-card {
-    color: #3FC4EF;
+  color: #3fc4ef;
 }
 
 .tl-card {
+<<<<<<< HEAD
     text-align: center;
 }
 .alert{
@@ -102,3 +103,7 @@
 h6{
     color: grey;
 }
+=======
+  text-align: center;
+}
+>>>>>>> f004e4ec5f401f94391f1ad9c365d71618428bfa
