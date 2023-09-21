@@ -29,22 +29,24 @@
 }
 .container {
   margin-top: 250px;
+  color: black;
+  font-size: 15px;
+  font-weight: 300;
 }
 .img-container {
   margin-top: 150px;
-}
-.col {
-  margin-top: 145px;
-  margin-right: 70px;
-}
-.col_margin {
-  margin-left: 30px;
-  margin-top: 250px;
 }
 .card {
   height: 100px;
   width: 250px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card-body {
+  color: black;
+  font-size: 15px;
+}
+.card-text {
+  font-weight: 300;
 }
 .col-md-4 {
   margin-top: 8px;
@@ -53,13 +55,6 @@
 }
 .card:hover {
   transform: scale(0.9);
-}
-.card:hover::after {
-  height: 280px;
-}
-.card:hover .con-text p {
-  margin-bottom: 0px;
-  opacity: 1;
 }
 .card:hover img {
   transform: scale(1.25);
@@ -94,7 +89,6 @@
 }
 
 .tl-card {
-<<<<<<< HEAD
     text-align: center;
 }
 .alert{
@@ -109,7 +103,4 @@
 h6{
     color: grey;
 }
-=======
-  text-align: center;
-}
->>>>>>> f004e4ec5f401f94391f1ad9c365d71618428bfa
+ 
