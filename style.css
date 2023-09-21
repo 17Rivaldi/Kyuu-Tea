@@ -93,12 +93,16 @@
 }
 .alert{
     font-family: arial; 
-    font-weight: bolder;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 .col{
     font-size: 40px; 
     font-weight: bold; 
     color: #1CC7FF;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 h6{
     color: grey;
