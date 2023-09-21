@@ -117,12 +117,22 @@ body {
   margin-bottom: 1em;
 }
 
+.card-catMenu:hover{
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card-catMenu:hover h5{
+  color: #3ec5ef;
+}
+
+/*via order*/
 .sub {
   font-size: 20px;
   font-weight: bold;
 }
 
-/*via order*/
+
 .v-order {
   color: #3fc4ef;
 }
