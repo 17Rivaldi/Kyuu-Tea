@@ -112,3 +112,59 @@
 h6 {
   color: grey;
 }
+
+/* footer css */
+footer h5{
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: rgb(78, 78, 78);
+  font-weight: bold;
+}
+
+footer li {
+  font-size: 1.3rem;
+  padding: 5px;
+  font-weight: 400;
+}
+
+footer h3{
+  margin-top: 10px;
+  font-size: x-large;
+  color: rgb(78, 78, 78);
+}
+
+footer .circle-background{
+    width: 100px;
+    height: 100px;
+    background-color: #1cc7ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-2 {
+  color: rgb(78, 78, 78);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+footer .instagram-logo {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+footer .centered-text {
+  font-family: sans-serif;
+  font-weight: 500;
+  flex-grow: 1;
+  font-size: 18px;
+  text-align: center;
+}
