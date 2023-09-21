@@ -1,4 +1,67 @@
-
+.navbar {
+    float: left;
+    width: 100px; 
+}
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+.navbar li a:hover {
+    background: #FFFFFF;
+    color: #3EC5EF;
+}
+.margin {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.gap-home {
+    margin-left: 244px;
+}
+.gap-testimoni {
+    margin-left: 70px;
+    margin-right: 245px;
+}
+.gap {
+    margin-left: 70px;
+}
+.col {
+    margin-top: 145px;
+    margin-right: 70px;
+}
+.col_margin {
+    margin-left: 30px;
+    margin-top: 250px;
+}
+.card {
+    height: 100px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.col-md-4 {
+    margin-top: 8px;
+    padding: 5px;
+    border-radius: 5px;
+}
+card:hover {
+    transform: scale(.9);
+}
+.card:hover::after {
+    height: 280px;
+}
+.card:hover .con-text p {
+    margin-bottom: 0px;
+    opacity: 1;
+}
+.card:hover img {
+    transform: scale(1.25);
+}
+.card:hover .ul {
+    transform: translate(0);
+    opacity: 1;
+}
 
 .sub{
     font-size: small;
