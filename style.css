@@ -90,3 +90,15 @@
 .tl-card {
     text-align: center;
 }
+.alert{
+    font-family: arial; 
+    font-weight: bolder;
+}
+.col{
+    font-size: 40px; 
+    font-weight: bold; 
+    color: #1CC7FF;
+}
+h6{
+    color: grey;
+}
