@@ -1,0 +1,30 @@
+
+
+.sub{
+    font-size: small;
+    font-weight: bold;
+}
+
+.v-order {
+    color: #3FC4EF;
+}
+
+
+.btn-info {
+    background-image: url('/assets/logo-gofood.png');
+    background-size: 80% 90%;
+    background-color: #3FC4EF;
+    background-repeat: no-repeat;
+    margin: 1rem;
+    width: 12rem;
+    height: 3rem;
+    background-position: center;
+}
+
+.custom-card {
+    color: #3FC4EF;
+}
+
+.tl-card {
+    text-align: center;
+}
