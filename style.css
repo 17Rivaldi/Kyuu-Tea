@@ -64,6 +64,10 @@
   opacity: 1;
 }
 
+.catMenu {
+  margin-bottom: 1em;
+}
+
 .sub {
   font-size: 20px;
   font-weight: bold;
@@ -74,7 +78,7 @@
 }
 
 .btn-info {
-  background-image: url("assets/logo-gofood.png");
+  background-image: url("./assets/logo-gofood.png");
   background-size: 80% 90%;
   background-color: #3fc4ef;
   background-repeat: no-repeat;
@@ -89,23 +93,22 @@
 }
 
 .tl-card {
-    text-align: center;
+  text-align: center;
 }
-.alert{
-    font-family: arial; 
-    font-weight: bold;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    font-size: 20px;
+.alert {
+  font-family: arial;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 20px;
 }
-.col{
-    font-size: 40px; 
-    font-weight: bold; 
-    color: #1CC7FF;
-    margin-top: 0px;
-    padding-top: 0px;
+.col {
+  font-size: 40px;
+  font-weight: bold;
+  color: #1cc7ff;
+  margin-top: 0px;
+  padding-top: 0px;
 }
-h6{
-    color: grey;
+h6 {
+  color: grey;
 }
- 
