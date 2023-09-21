@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0; 
+}
+
 /*navbar*/
 .navbar {
   background-color: #ffffff;
@@ -45,15 +50,41 @@
 .img-container {
   margin-top: 150px;
 }
+.hero-content {
+  margin-top: 250px;
+  color: black;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.hero-image {
+  width: 661px;
+  height: 180px;
+}
+
+.hero-text {
+  margin-top: 20px;
+}
+
+.hero-button {
+  background-color: #3EC5EF;
+  color: white;
+  border-radius: 15px;
+  font-weight: 600;
+  margin-top: 20px;
+}
 .card {
   height: 100px;
   width: 250px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
 }
 .card-body {
   color: black;
   font-size: 15px;
 }
+
 .card-text {
   font-weight: 300;
 }
@@ -62,13 +93,22 @@
   padding: 5px;
   border-radius: 5px;
 }
-.card:hover {
-  transform: scale(0.9);
+.hero-product {
+  margin-top: 0.2rem;
+  margin: 1rem;
 }
-.card:hover img {
-  transform: scale(1.25);
+
+.image-hero-product{
+  margin:0.2rem;
 }
-.card:hover .ul {
+
+.hero-product:hover {
+  transform: scale(1.13);
+}
+.hero-product:hover img {
+  transform: scale(1.11);
+}
+.hero-product:hover .ul {
   transform: translate(0);
   opacity: 1;
 }
