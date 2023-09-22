@@ -1,11 +1,21 @@
+body {
+  margin: 0;
+  padding: 0; 
+}
+
+/*navbar*/
+.shadow-navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 .navbar {
-  float: left;
-  width: 100px;
+  background-color: #ffffff;
+}
+.navbar-toggler-icon {
+  background-color: #3EC5EF;
 }
 .navbar li a {
   color: black;
   text-decoration: none;
-  display: block;
   font-weight: bold;
 }
 .navbar li a:hover {
@@ -13,38 +23,77 @@
   color: #3ec5ef;
 }
 .margin {
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 .gap-home {
-  margin-left: 244px;
+  margin-left: 25rem;
 }
 .gap-testimoni {
-  margin-left: 70px;
-  margin-right: 245px;
+  margin-left: 1rem;
+  margin-right: 4rem;
 }
 .gap {
-  margin-left: 70px;
+  margin-left: 1rem;
+}
+
+@media (max-width: 991.98px) {
+  .gap-home {
+    margin-left: 15px;
+  }
+}
+/*home*/
+.col-lg-5.col-12 {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column; 
 }
 .container {
-  margin-top: 250px;
+  margin-top: 100px;
   color: black;
   font-size: 15px;
   font-weight: 300;
 }
 .img-container {
-  margin-top: 150px;
+  margin-top: 2rem;
+}
+.hero-content {
+  margin-top: 100px;
+  color: black;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.hero-image {
+  width: 661px;
+  height: 180px;
+}
+
+.hero-text {
+  margin-top: 20px;
+}
+
+.hero-button {
+  background-color: #3EC5EF;
+  color: white;
+  border-radius: 15px;
+  font-weight: 600;
+  margin-top: 20px;
 }
 .card {
   height: 100px;
   width: 250px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
 }
 .card-body {
   color: black;
   font-size: 15px;
 }
+
 .card-text {
   font-weight: 300;
 }
@@ -53,13 +102,22 @@
   padding: 5px;
   border-radius: 5px;
 }
-.card:hover {
-  transform: scale(0.9);
+.hero-product {
+  margin-top: 0.2rem;
+  margin: 1rem;
 }
-.card:hover img {
-  transform: scale(1.25);
+
+.image-hero-product{
+  margin:0.2rem;
 }
-.card:hover .ul {
+
+.hero-product:hover {
+  transform: scale(1.13);
+}
+.hero-product:hover img {
+  transform: scale(1.11);
+}
+.hero-product:hover .ul {
   transform: translate(0);
   opacity: 1;
 }
@@ -68,10 +126,21 @@
   margin-bottom: 1em;
 }
 
+.card-catMenu:hover{
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card-catMenu:hover h5{
+  color: #3ec5ef;
+}
+
+/*via order*/
 .sub {
   font-size: 20px;
   font-weight: bold;
 }
+
 
 .v-order {
   color: #3fc4ef;
