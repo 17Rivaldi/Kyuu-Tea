@@ -44,21 +44,13 @@ body {
   }
 }
 /*home*/
-.col-lg-5.col-12 {
-  display: flex;
-  align-items: center; 
-  justify-content: center; 
-  flex-direction: column; 
-}
 .container {
   margin-top: 70px;
   color: black;
   font-size: 15px;
   font-weight: 300;
 }
-.img-container {
-  margin-top: 10px;
-}
+
 .hero-content {
   margin-top: 100px;
   color: black;
@@ -66,16 +58,6 @@ body {
   font-weight: 300;
   text-align: left;
 }
-
-.hero-image {
-  width: 661px;
-  height: 180px;
-}
-
-.hero-text {
-  margin-top: 20px;
-}
-
 .hero-button {
   background-color: #3EC5EF;
   color: white;
@@ -89,28 +71,6 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
 }
-.card-body {
-  color: black;
-  font-size: 15px;
-}
-
-.card-text {
-  font-weight: 300;
-}
-.col-md-4 {
-  margin-top: 8px;
-  padding: 5px;
-  border-radius: 5px;
-}
-.hero-product {
-  margin-top: 0.2rem;
-  margin: 1rem;
-}
-
-.image-hero-product{
-  margin:0.2rem;
-}
-
 .hero-product:hover {
   transform: scale(1.13);
 }
