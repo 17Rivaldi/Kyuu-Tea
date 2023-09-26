@@ -145,6 +145,11 @@ body {
 h6 {
   color: grey;
 }
+.oc{
+  max-width: 550px;
+  height: auto;
+  min-width: 280px;
+}
 
 /* footer css  */
 footer h5 {
