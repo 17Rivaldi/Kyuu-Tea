@@ -45,8 +45,16 @@ body {
   width: 100%;
   height: auto;
   max-width: 500px;
+} 
+.button-hover{
+  background-color: #3fc4ef;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
 }
-
+.button-hover:hover{
+  background-color: deepskyblue;
+}
 /* Menu */
 .card-catMenu:hover {
   transform: scale(1.05);
