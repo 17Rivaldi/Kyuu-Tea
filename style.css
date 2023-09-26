@@ -22,27 +22,7 @@ body {
   background: #ffffff;
   color: #3ec5ef;
 }
-.margin {
-  margin-top: 2rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
-}
-.gap-home {
-  margin-left: 25rem;
-}
-.gap-testimoni {
-  margin-left: 1rem;
-  margin-right: 4rem;
-}
-.gap {
-  margin-left: 1rem;
-}
 
-@media (max-width: 991.98px) {
-  .gap-home {
-    margin-left: 15px;
-  }
-}
 /*home*/
 .centered-text {
   padding-top: 150px;
@@ -87,7 +67,7 @@ body {
   color: #3fc4ef;
 }
 
-.btn-info {
+.btn-info-order {
   background-image: url("./assets/logo-gofood.png");
   background-size: 80% 90%;
   background-color: #3fc4ef;
@@ -96,6 +76,12 @@ body {
   width: 12rem;
   height: 3rem;
   background-position: center;
+  border: none;
+}
+
+.btn-info-order:hover {
+  background-color: white;
+  border: 3px solid #3fc4ef;
 }
 
 .custom-card {
