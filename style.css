@@ -1,6 +1,6 @@
 body {
   margin: 20px;
-  padding: 0; 
+  padding: 0;
 }
 
 /*navbar*/
@@ -11,7 +11,7 @@ body {
   background-color: #ffffff;
 }
 .navbar-toggler-icon {
-  background-color: #3EC5EF;
+  background-color: #3ec5ef;
 }
 .navbar li a {
   color: black;
@@ -59,7 +59,7 @@ body {
   text-align: left;
 }
 .hero-button {
-  background-color: #3EC5EF;
+  background-color: #3ec5ef;
   color: white;
   border-radius: 15px;
   font-weight: 600;
@@ -82,17 +82,22 @@ body {
   opacity: 1;
 }
 
+.card-catMenu:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card-catMenu:hover h5 {
+  color: #3ec5ef;
+}
+
+/* Menu */
 .catMenu {
   margin-bottom: 1em;
 }
 
-.card-catMenu:hover{
-  transform: scale(1.05); 
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-.card-catMenu:hover h5{
-  color: #3ec5ef;
+#kategori {
+  margin-top: 10rem;
 }
 
 /*via order*/
@@ -100,7 +105,6 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
-
 
 .v-order {
   color: #3fc4ef;
@@ -143,10 +147,10 @@ h6 {
 }
 
 /* footer css  */
-footer h5{
+footer h5 {
   font-size: 1.5rem;
   margin-top: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
   color: rgb(78, 78, 78);
@@ -159,20 +163,20 @@ footer li {
   font-weight: 400;
 }
 
-footer h3{
+footer h3 {
   margin-top: 10px;
   font-size: x-large;
   color: rgb(78, 78, 78);
 }
 
-footer .circle-background{
-    width: 100px;
-    height: 100px;
-    background-color: #1cc7ff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+footer .circle-background {
+  width: 100px;
+  height: 100px;
+  background-color: #1cc7ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .footer-2 {
