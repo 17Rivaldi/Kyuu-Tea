@@ -44,42 +44,27 @@ body {
   }
 }
 /*home*/
-.container {
-  margin-top: 70px;
-  color: black;
-  font-size: 15px;
-  font-weight: 300;
+.centered-text {
+  padding-top: 150px;
 }
 
-.hero-content {
-  margin-top: 100px;
-  color: black;
-  font-size: 15px;
-  font-weight: 300;
-  text-align: left;
+.efek-product:hover {
+  transform: scale(1.05);
 }
-.hero-button {
-  background-color: #3ec5ef;
-  color: white;
-  border-radius: 15px;
-  font-weight: 600;
-  margin-top: 20px;
+
+.efek-product:hover img {
+  transform: scale(1.02);
 }
-.card {
-  height: 100px;
-  width: 250px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px;
-}
-.hero-product:hover {
-  transform: scale(1.13);
-}
-.hero-product:hover img {
-  transform: scale(1.11);
-}
-.hero-product:hover .ul {
+
+.efek-product:hover .ul {
   transform: translate(0);
   opacity: 1;
+}
+
+.gambar-logo{
+  width: 100%;
+  height: auto;
+  max-width: 500px;
 }
 
 .card-catMenu:hover {
