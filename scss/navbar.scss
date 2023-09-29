@@ -13,7 +13,14 @@ $warna: (
 
 .navbar {
     font-family: $ini-font;
+    background-color: ganti($warna, "putih");
+    color: ganti($warna, "hitam")
 };
+
+.logo-navbar {
+    $ukuran : 40px;
+    height: $ukuran;
+}
 
 .custom-btn{
     background-color: ganti($warna, "biru");

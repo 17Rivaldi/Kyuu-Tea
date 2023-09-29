@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 .navbar {
   font-family: "Concert One", cursive;
+  background-color: #ffffff;
+  color: black;
+}
+
+.logo-navbar {
+  height: 40px;
 }
 
 .custom-btn {
