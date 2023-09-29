@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+@function ganti($map, $key) {
+    @return map-get($map, $key);
+};
+
+$ini-font: 'Concert One', cursive;
+$warna: (
+    "hitam": black,
+    "biru": #3EC5EF,
+    "putih": #ffffff,
+);
+
+.navbar {
+    font-family: $ini-font;
+};
+
+.custom-btn{
+    background-color: ganti($warna, "biru");
+    color: ganti($warna, "putih");
+    border-radius: 15px;
+    border: 2px solid ganti($warna, "biru");
+    font-weight: 400;
+};
+
+.custom-btn:hover {
+    background-color: ganti($warna, "putih");
+    color: ganti($warna, "hitam");
+    border: 2px solid ganti($warna, "biru");
+};
