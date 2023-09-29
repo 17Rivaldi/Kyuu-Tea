@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+#kategori h4,
+#mtTab,
+.cardKonten h5,
+.cardKonten p {
+  font-family: "Inter", sans-serif;
+}
+
+.cardKonten p {
+  color: #555555;
+}
+
+.cardKonten:hover {
+  transform: scale(1.05);
+  background-color: #e5e5e5;
+}
+
+/*# sourceMappingURL=menu.css.map */
