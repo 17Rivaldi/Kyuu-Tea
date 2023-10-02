@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
-$backgroundColor: #e5e5e5;
-$fontColor: #555555;
 
 #kategori h4,
 #mtTab,
@@ -8,10 +6,30 @@ $fontColor: #555555;
 .cardKonten p {
   font-family: "Inter", sans-serif;
 }
-.cardKonten p {
-  color: $fontColor;
+
+@function ubahWarna($daftarWarna, $warna) {
+  @return map-get($daftarWarna, $warna);
 }
+
+$warnaBg: (
+  "color1": #e5e5e5,
+  "color2": #ececec,
+  "color3": lighten(#3fc4ef, 20%),
+);
+
+$fontColor: (
+  "colorFont1": #555555,
+  "colorFont2": #333333,
+  "colorFont3": #3fc4ef,
+);
+
 .cardKonten:hover {
   transform: scale(1.05);
-  background-color: $backgroundColor;
+  background-color: ubahWarna($warnaBg, "color3");
+}
+.cardKonten p {
+  color: ubahWarna($fontColor, "colorFont1");
+}
+.cardKonten p:hover {
+  color: ubahWarna($fontColor, "colorFont2");
 }
