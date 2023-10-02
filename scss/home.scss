@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins:ital@1&display=swap');
 
-$backgroundColor: #3EC5EF;
-$font-family: 'Pixelify Sans', cursive;;
+
+@function ganti($map, $key) {
+    @return map-get($map, $key);
+};
+
+$font-family: 'Young Serif', serif;
+$backgroundColor: (
+    "warna1": black,
+    "warna2": pink,
+    "warna3" : lighten(#3fc4ef, 20%),
+);
 
 .efek-product:hover {
-    background: $backgroundColor;
+    background-color: ganti($backgroundColor, "warna2");
 }
 
 .centered-text {

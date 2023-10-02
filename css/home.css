@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins:ital@1&display=swap");
 .efek-product:hover {
-  background: #3EC5EF;
+  background-color: pink;
 }
 
 .centered-text {
-  font-family: "Pixelify Sans", cursive;
+  font-family: "Young Serif", serif;
 }
 
 /*# sourceMappingURL=home.css.map */
