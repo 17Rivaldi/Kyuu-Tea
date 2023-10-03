@@ -1,21 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins:ital@1&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins:ital@1&display=swap");
 
 @function ganti($map, $key) {
-    @return map-get($map, $key);
-};
+  @return map-get($map, $key);
+}
 
-$font-family: 'Young Serif', serif;
+$font-family: "Young Serif", serif;
 $backgroundColor: (
-    "warna1": black,
-    "warna2": pink,
-    "warna3" : lighten(#3fc4ef, 20%),
+  "warna1": black,
+  "warna2": pink,
+  "warna3": lighten(#3fc4ef, 20%),
 );
 
-.efek-product:hover {
-    background-color: ganti($backgroundColor, "warna2");
+.efek-product {
+  box-shadow: map-get($backgroundColor, "warna3");
+}
+
+$color: #c1ce64;
+
+.efek-product {
+  @for $i from 1 to 3 {
+    &:nth-child(#{$i}) .card {
+      box-shadow: 3px 3px 6px adjust-hue($color, $i * 45deg);
+    }
+  }
 }
 
 .centered-text {
-    font-family: $font-family;
+  font-family: $font-family;
+}
+
+@mixin bg-judul() {
+  text-shadow: 3px 3px 8px rgba($color: #3fc4ef, $alpha: 1);
+}
+.bg-judul {
+  @include bg-judul();
+}
+
+@mixin bg-logo() {
+  box-shadow: 3px 3px 6px rgba($color: #3fc4ef, $alpha: 1);
+  border-radius: 50%;
+}
+.gambar-logo {
+  @include bg-logo();
+}
+
+// perulangan
+// pengkondisian menggunakan if
+
+@mixin box($shadow: false) {
+  @if $shadow {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+  }
+}
+
+.box-nav {
+  @include box($shadow: false);
+}
+.box-order {
+  @include box($shadow: true);
 }

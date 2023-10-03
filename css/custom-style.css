@@ -26,12 +26,32 @@
   border: 2px solid #3EC5EF;
 }
 
-.efek-product:hover {
-  background-color: pink;
+.efek-product {
+  box-shadow: #9de1f7;
+}
+
+.efek-product:nth-child(1) .card {
+  box-shadow: 3px 3px 6px #72ce64;
+}
+.efek-product:nth-child(2) .card {
+  box-shadow: 3px 3px 6px #64cea6;
 }
 
 .centered-text {
   font-family: "Young Serif", serif;
+}
+
+.bg-judul {
+  text-shadow: 3px 3px 8px #3fc4ef;
+}
+
+.gambar-logo {
+  box-shadow: 3px 3px 6px #3fc4ef;
+  border-radius: 50%;
+}
+
+.box-order {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
 }
 
 .mt-5 {
