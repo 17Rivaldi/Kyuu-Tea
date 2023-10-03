@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+.navbar {
+  font-family: "Concert One", cursive;
+  background-color: #ffffff;
+  color: black;
+}
+
+.logo-navbar {
+  height: 40px;
+}
+
+.custom-btn {
+  background-color: #3EC5EF;
+  color: #ffffff;
+  border-radius: 15px;
+  border: 2px solid #3EC5EF;
+  font-weight: 400;
+}
+
+.custom-btn:hover {
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid #3EC5EF;
+}
+
+.efek-product:hover {
+  background-color: pink;
+}
+
+.centered-text {
+  font-family: "Young Serif", serif;
+}
+
+.mt-5 {
+  font-size: 25.6px;
+  font-family: "Inter";
+}
+
+.cardKonten {
+  font-family: "Crimson Text";
+}
+.cardKonten h5 {
+  font-size: 19.2px;
+}
+
+.cardKonten:hover {
+  transform: scale(1.05);
+  background-color: #9de1f7;
+}
+
+.cardKonten p {
+  color: #555555;
+}
+
+.cardKonten p:hover {
+  color: #333333;
+}
+
+/*# sourceMappingURL=custom-style.css.map */

@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
-
-#kategori h4,
-#mtTab,
-.cardKonten h5,
-.cardKonten p {
-  font-family: "Inter", sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
 
 @function ubahWarna($daftarWarna, $warna) {
   @return map-get($daftarWarna, $warna);
@@ -16,13 +10,31 @@ $warnaBg: (
   "color2": #ececec,
   "color3": lighten(#3fc4ef, 20%),
 );
-
 $fontColor: (
   "colorFont1": #555555,
   "colorFont2": #333333,
   "colorFont3": #3fc4ef,
 );
+$jenis-font: (
+  "font1": "Inter",
+  "font2": "Crimson Text",
+);
+$font-base: 16px;
 
+@mixin text-size($scale) {
+  font-size: $font-base * $scale;
+}
+
+.mt-5 {
+  @include text-size(1.6);
+  font-family: ubahWarna($jenis-font, "font1");
+}
+.cardKonten {
+  font-family: ubahWarna($jenis-font, "font2");
+  h5 {
+    @include text-size(1.2);
+  }
+}
 .cardKonten:hover {
   transform: scale(1.05);
   background-color: ubahWarna($warnaBg, "color3");
