@@ -61,9 +61,9 @@ body {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
-.card-catMenu:hover h5 {
+/* .card-catMenu:hover h5 {
   color: #3ec5ef;
-}
+} */
 
 /*via order*/
 .sub {

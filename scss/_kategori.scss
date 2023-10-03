@@ -1,0 +1,14 @@
+$background-color: white; 
+
+.effect {
+    background-color: $background-color}
+
+.effect.active{
+    background-color: #3fc4ef !important;
+    color: white}
+
+.effect.active:hover{
+    color: white;
+}
+.effect.active img{
+    background-color: white !important}

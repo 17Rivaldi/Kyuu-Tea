@@ -59,4 +59,21 @@
   color: #333333;
 }
 
+.effect {
+  background-color: white;
+}
+
+.effect.active {
+  background-color: #3fc4ef !important;
+  color: white;
+}
+
+.effect.active:hover {
+  color: white;
+}
+
+.effect.active img {
+  background-color: white !important;
+}
+
 /*# sourceMappingURL=custom-style.css.map */
