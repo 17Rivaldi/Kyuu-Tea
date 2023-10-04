@@ -139,4 +139,18 @@ h6 {
   font-family: "Dela Gothic One";
 }
 
+.alert {
+  margin-top: 50px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.container {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+
 /*# sourceMappingURL=custom-style.css.map */

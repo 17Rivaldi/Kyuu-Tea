@@ -21,4 +21,19 @@ h6{
     font-family: ubah-font($ubhfont,'font-2' );
  }
 
+ @mixin margin($top:0, $right:0, $bottom:0, $left:0){
+    margin-top: $top;
+    margin-right: $right;
+    margin-bottom: $bottom;
+    margin-left: $left;
+ }
+ .alert{
+    @include margin(50px);
+ }
+
+ .container{
+    @include margin(0px, 0px, 50px, 0px);
+ }
+
+ 
 
