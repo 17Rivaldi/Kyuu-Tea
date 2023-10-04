@@ -25,8 +25,17 @@ h6 {
   margin-bottom: $bottom;
   margin-left: $left;
 }
+@mixin shadow($color: #000, $x: 0, $y: 4px, $blur: 4px, $spread: 0) {
+  box-shadow: $x $y $blur $spread $color;
+}
+
+$enable-shadow: true; // Setel ke false jika tidak ingin efek bayangan
+
 .alert {
   @include margin(50px);
+  @if $enable-shadow {
+      @include shadow(rgba(0, 0, 0, 0.2)); // Menambahkan efek bayangan jika $enable-shadow adalah true
+  }
 }
 
 .testimonials {
