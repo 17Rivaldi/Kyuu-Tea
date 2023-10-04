@@ -29,12 +29,12 @@ h6 {
   box-shadow: $x $y $blur $spread $color;
 }
 
-$enable-shadow: true; // Setel ke false jika tidak ingin efek bayangan
+$enable-shadow: true; 
 
 .alert {
   @include margin(50px);
   @if $enable-shadow {
-      @include shadow(rgba(0, 0, 0, 0.2)); // Menambahkan efek bayangan jika $enable-shadow adalah true
+      @include shadow(rgba(0, 0, 0, 0.2)); 
   }
 }
 
