@@ -1,0 +1,33 @@
+//perulangan menggunakan each
+$warna-bg-faq: #a9def9;
+$warna-f-faq: #000;
+$warna-f-faq-click: #4361ee;
+
+$warna-faq:(
+    "warna-1": #CAF0F8,
+    "warna-2": #ADE8F4,
+    "warna-3": #90E0EF,
+    "warna-4": #6CD5EA,
+);
+
+@each $name, $background-color in $warna-faq {
+    .bg-faq-#{$name} {
+        background-color: $background-color;
+    }
+};
+
+.accordion-button {
+    background-color: $warna-bg-faq !important;
+    font-weight: 500;
+};
+
+.accordion-button:not(.collapsed) {
+    color: $warna-f-faq-click !important;
+    background-color: #cff4fc !important;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+    font-weight:bold;
+};
+
+.accordion-body{
+    color: $warna-f-faq ;
+};
