@@ -33,10 +33,10 @@
 }
 
 .efek-product:nth-child(1) .card {
-  box-shadow: 3px 3px 6px #72ce64;
+  box-shadow: 3px 3px 6px #a2a9d6;
 }
 .efek-product:nth-child(2) .card {
-  box-shadow: 3px 3px 6px #64cea6;
+  box-shadow: 3px 3px 6px #c2a2d6;
 }
 
 .centered-text {
