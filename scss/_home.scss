@@ -9,6 +9,7 @@ $backgroundColor: (
   "warna1": black,
   "warna2": pink,
   "warna3": lighten(#3fc4ef, 20%),
+  "warna4": #3fc4ef
 );
 
 .efek-product {
@@ -34,6 +35,10 @@ $color: #a2d0d6;
 }
 .bg-judul {
   @include bg-judul();
+}
+.judul-fresh {
+  color: map-get($backgroundColor, "warna4");
+  text-shadow: 3px 3px 8px rgba($color: #FF4B91, $alpha: 1);
 }
 
 @mixin bg-logo() {

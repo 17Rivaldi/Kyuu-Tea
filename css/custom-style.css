@@ -47,6 +47,11 @@
   text-shadow: 3px 3px 8px #3fc4ef;
 }
 
+.judul-fresh {
+  color: #3fc4ef;
+  text-shadow: 3px 3px 8px #ff4b91;
+}
+
 .gambar-logo {
   box-shadow: 3px 3px 6px #3fc4ef;
   border-radius: 50%;
