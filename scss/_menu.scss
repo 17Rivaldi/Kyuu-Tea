@@ -34,14 +34,24 @@ $font-base: 16px;
   h5 {
     @include text-size(1.2);
   }
+  p {
+    color: ubahWarna($fontColor, "colorFont1");
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: -webkit-line-clamp 0.5s ease;
+  }
 }
-.cardKonten:hover {
+
+.cardKonten.hovered {
   transform: scale(1.05);
   background-color: ubahWarna($warnaBg, "color3");
 }
-.cardKonten p {
-  color: ubahWarna($fontColor, "colorFont1");
-}
-.cardKonten p:hover {
-  color: ubahWarna($fontColor, "colorFont2");
+
+.cardKonten.hovered p {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: unset;
 }

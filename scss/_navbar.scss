@@ -1,37 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 
 @function ganti($map, $key) {
-    @return map-get($map, $key);
-};
+  @return map-get($map, $key);
+}
 
-$ini-font: 'Concert One', cursive;
+$ini-font: "Concert One", cursive;
 $warna: (
-    "hitam": black,
-    "biru": #3EC5EF,
-    "putih": #ffffff,
+  "hitam": black,
+  "biru": #3ec5ef,
+  "putih": #ffffff,
 );
 
 .navbar {
-    font-family: $ini-font;
-    background-color: ganti($warna, "putih");
-    color: ganti($warna, "hitam")
-};
+  font-family: $ini-font;
+  background-color: ganti($warna, "putih");
+  color: ganti($warna, "hitam");
+  border-radius: 0 0 15px 15px;
+}
 
 .logo-navbar {
-    $ukuran : 40px;
-    height: $ukuran;
-};
+  $ukuran: 40px;
+  height: $ukuran;
+}
 
-.custom-btn{
-    background-color: ganti($warna, "biru");
-    color: ganti($warna, "putih");
-    border-radius: 15px;
-    border: 2px solid ganti($warna, "biru");
-    font-weight: 400;
-};
+.custom-btn {
+  background-color: ganti($warna, "biru");
+  color: ganti($warna, "putih");
+  border-radius: 15px;
+  border: 2px solid ganti($warna, "biru");
+  font-weight: 400;
+}
 
 .custom-btn:hover {
-    background-color: ganti($warna, "putih");
-    color: ganti($warna, "hitam");
-    border: 2px solid ganti($warna, "biru");
-};
+  background-color: ganti($warna, "putih");
+  color: ganti($warna, "hitam");
+  border: 2px solid ganti($warna, "biru");
+}

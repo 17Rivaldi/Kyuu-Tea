@@ -15,7 +15,7 @@
 
 <body>
   <!--Start Home-->
-  <nav class="navbar navbar-expand-lg fs-4 mx-5 shadow-navbar">
+  <nav class="navbar sticky-top navbar-expand-lg fs-4 mx-5 shadow-navbar">
     <div class="container">
       <a class="navbar-brand p-0" href="#">
         <img src="./assets/brand.png" alt="Logo" class="logo-navbar">
@@ -29,7 +29,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#kategori">Menu</a>
@@ -58,7 +58,7 @@
 
   <!--modal-->
   <div class="modal fade" id="modalContact">
-    <div class="modal-dialog">
+    <div class="modal-lg modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <h4 class="modal-title">Contact&nbsp;</h4>
@@ -66,22 +66,32 @@
           <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form>
-            <div class="form-group">
-              <label for="nama">Nama:</label>
-              <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Anda">
+          <div class="row py-2 mx-1">
+            <div class="col-lg-6 col-sm-12">
+              <form>
+                <div class="form-group my-2">
+                  <label for="nama">Nama:</label>
+                  <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Anda">
+                </div>
+                <div class="form-group my-2">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Masukkan Email Anda">
+                </div>
+                <div class="form-group my-2">
+                  <label for="masukan">Masukan:</label>
+                  <textarea class="form-control" id="masukan" rows="3" placeholder="Masukan Anda"></textarea>
+                </div>
+              </form>
             </div>
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" class="form-control" id="email" placeholder="Masukkan Email Anda">
+            <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1357.0694979587072!2d104.06424454686547!3d1.1143236322166288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d988db385baa53%3A0xed680b45ea2cea32!2sPark%20Avenue!5e0!3m2!1sid!2sid!4v1696590568899!5m2!1sid!2sid"
+                width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="form-group">
-              <label for="masukan">Masukan:</label>
-              <textarea class="form-control" id="masukan" rows="3" placeholder="Masukan Anda"></textarea>
-            </div>
-          </form>
+          </div>
           <button class="btn fs-4 w-100 mt-2" data-toggle="alert" data-target="#alert-success"
-          style="background-color: #3EC5EF; color: white; border-radius: 10px; font-weight: 600;">
+            style="background-color: #3EC5EF; color: white; border-radius: 10px; font-weight: 600;">
             Kirim
           </button>
           <div style="text-align: center; margin-top: 20px;">
@@ -97,12 +107,14 @@
   <div class="container">
     <div class="row">
       <div class="col centered-text">
-        <h1  class="bg-judul" style="font-size: 60px; color: black;">Open new happiness with every <span class="judul-fresh">freshness!</span></h1>
+        <h1 class="bg-judul" style="font-size: 60px; color: black;">Open new happiness with every <span
+            class="judul-fresh">freshness!</span></h1>
         <br>
         <p class="bg-judul" style="color: black; font-size: medium;">Ayo cobain sensasi kesegaran yang berbeda</p>
         <br><br><br><br>
         <button type="button" class="button-hover fs-4 box-order p-1">
-          <a href="https://instagram.com/decafe.official/" style="color: white; text-decoration-line: none; padding: 20px;">
+          <a href="https://instagram.com/decafe.official/"
+            style="color: white; text-decoration-line: none; padding: 20px;">
             Order Now
           </a>
         </button>
@@ -213,7 +225,7 @@
         <!-- Konten Tab 1 -->
         <p class="fs-3 fw-bolder">BUBBLE</p>
         <div class="row justify-content-center">
-          <div class="col-lg-3 mx-1 col-md-5 my-1 d-flex justify-content-center">
+          <div class="col-lg-3 mx-1 col-md-5 my-2 d-flex justify-content-center">
             <div class="card border-0 shadow cardKonten" style="height: 100%; width: 15rem; border-radius: 30px;">
               <div class="card-body d-flex flex-column cardProduk">
                 <img src="./assets/imgMenu/goldy salt.webp"
@@ -236,7 +248,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 mx-1 col-md-5 my-1 d-flex justify-content-center">
+          <div class="col-lg-3 mx-1 col-md-5 my-2 d-flex justify-content-center">
             <div class="card border-0 shadow cardKonten" style="height: 100%; width: 15rem; border-radius: 30px;">
               <div class="card-body d-flex flex-column cardProduk">
                 <img src="./assets/imgMenu/poison mango.webp"
@@ -257,7 +269,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 mx-1 col-md-5 my-1 d-flex justify-content-center">
+          <div class="col-lg-3 mx-1 col-md-5 my-2 d-flex justify-content-center">
             <div class="card border-0 shadow cardKonten" style="height: 100%; width: 15rem; border-radius: 30px;">
               <div class="card-body d-flex flex-column cardProduk">
                 <img src="./assets/imgMenu/kyuumenkar.webp"
@@ -280,7 +292,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 mx-1 col-md-5 my-1 d-flex justify-content-center">
+          <div class="col-lg-3 mx-1 col-md-5 my-2 d-flex justify-content-center">
             <div class="card border-0 shadow cardKonten" style="height: 100%; width: 15rem; border-radius: 30px;">
               <div class="card-body d-flex flex-column cardProduk">
                 <img src="./assets/imgMenu/poisonberry.webp"
@@ -302,7 +314,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 mx-1 col-md-5 my-1 d-flex justify-content-center">
+          <div class="col-lg-3 mx-1 col-md-5 my-2 d-flex justify-content-center">
             <div class="card border-0 shadow cardKonten" style="height: 100%; width: 15rem; border-radius: 30px;">
               <div class="card-body d-flex flex-column cardProduk">
                 <img src="./assets/imgMenu/bublingocean.webp"
@@ -329,7 +341,7 @@
         <!-- Konten Tab 2 -->
         <p class="fs-3 fw-bolder">TEA</p>
         <div class="row justify-content-center">
-          <div class="col-lg-3 mx-1 col-md-5 my-1 d-flex justify-content-center">
+          <div class="col-lg-3 mx-1 col-md-5 my-2 d-flex justify-content-center">
             <div class="card border-0 shadow cardKonten" style="height: 100%; width: 15rem; border-radius: 30px;">
               <div class="card-body d-flex flex-column">
                 <img src="./assets/imgMenu/kyuuchy.webp"
@@ -350,7 +362,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 mx-1 col-md-5 my-1 d-flex justify-content-center">
+          <div class="col-lg-3 mx-1 col-md-5 my-2 d-flex justify-content-center">
             <div class="card border-0 shadow cardKonten" style="height: 100%; width: 15rem; border-radius: 30px;">
               <div class="card-body d-flex flex-column">
                 <img src="./assets/imgMenu/limetea.webp"
@@ -371,7 +383,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 mx-1 col-md-5 my-1 d-flex justify-content-center">
+          <div class="col-lg-3 mx-1 col-md-5 my-2 d-flex justify-content-center">
             <div class="card border-0 shadow cardKonten" style="height: 100%; width: 15rem; border-radius: 30px;">
               <div class="card-body d-flex flex-column">
                 <img src="./assets/imgMenu/kyuuthaitea.webp"
@@ -392,7 +404,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 mx-1 col-md-5 my-1 d-flex justify-content-center">
+          <div class="col-lg-3 mx-1 col-md-5 my-2 d-flex justify-content-center">
             <div class="card border-0 shadow cardKonten" style="height: 100%; width: 15rem; border-radius: 30px;">
               <div class="card-body d-flex flex-column">
                 <img src="./assets/imgMenu/peachtea.webp"
@@ -419,7 +431,7 @@
         <!-- Konten Tab 3 -->
         <p class="fs-3 fw-bolder">LATTE</p>
         <div class="row justify-content-center">
-          <div class="col-lg-3 mx-1 col-md-5 my-1 d-flex justify-content-center">
+          <div class="col-lg-3 mx-1 col-md-5 my-2 d-flex justify-content-center">
             <div class="card border-0 shadow cardKonten" style="height: 100%; width: 15rem; border-radius: 30px;">
               <div class="card-body d-flex flex-column">
                 <img src="./assets/imgMenu/hazelnutBiscoff.webp"
@@ -441,7 +453,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 mx-1 col-md-5 my-1 d-flex justify-content-center">
+          <div class="col-lg-3 mx-1 col-md-5 my-2 d-flex justify-content-center">
             <div class="card border-0 shadow cardKonten" style="height: 100%; width: 15rem; border-radius: 30px;">
               <div class="card-body d-flex flex-column">
                 <img src="./assets/imgMenu/kyuumintchoco.webp"
@@ -463,7 +475,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 mx-1 col-md-5 my-1 d-flex justify-content-center">
+          <div class="col-lg-3 mx-1 col-md-5 my-2 d-flex justify-content-center">
             <div class="card border-0 shadow cardKonten" style="height: 100%; width: 15rem; border-radius: 30px;">
               <div class="card-body d-flex flex-column">
                 <img src="./assets/imgMenu/carchol.webp"
@@ -602,7 +614,8 @@
                 </button>
               </div>
               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body bg-faq-warna-1">Kyuu-Tea adalah toko minuman yang menyajikan berbagai jenis minuman,
+                <div class="accordion-body bg-faq-warna-1">Kyuu-Tea adalah toko minuman yang menyajikan berbagai jenis
+                  minuman,
                   termasuk boba, tea, dan latte dengan cita rasa yang lezat dan berkualitas tinggi.
                 </div>
               </div>
@@ -615,7 +628,8 @@
                 </button>
               </div>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body bg-faq-warna-2">Minuman Kyuu-Tea dibuat dengan bahan-bahan berkualitas tinggi dan resep yang
+                <div class="accordion-body bg-faq-warna-2">Minuman Kyuu-Tea dibuat dengan bahan-bahan berkualitas tinggi
+                  dan resep yang
                   unik. Kami menggunakan bahan-bahan segar dan tidak ada bahan tambahan berbahaya.
                 </div>
               </div>
@@ -628,7 +642,8 @@
                 </button>
               </div>
               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body bg-faq-warna-3">Anda dapat menemukan toko Kyu Tea di Orchard Park, Park evenue, Batam
+                <div class="accordion-body bg-faq-warna-3">Anda dapat menemukan toko Kyu Tea di Orchard Park, Park
+                  evenue, Batam
                   Centre. Kami juga memiliki layanan pengiriman dan pesan antar.
                 </div>
               </div>
@@ -641,7 +656,8 @@
                 </button>
               </div>
               <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body bg-faq-warna-4">Anda dapat memesan minuman Kyuu-Tea melalui situs web kami atau datang
+                <div class="accordion-body bg-faq-warna-4">Anda dapat memesan minuman Kyuu-Tea melalui situs web kami
+                  atau datang
                   langsung ke toko kami.
                 </div>
               </div>
@@ -654,7 +670,8 @@
                 </button>
               </div>
               <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body bg-faq-warna-4">Ya, Kyuu-Tea menyediakan layanan pengiriman. Anda dapat memesan melalui
+                <div class="accordion-body bg-faq-warna-4">Ya, Kyuu-Tea menyediakan layanan pengiriman. Anda dapat
+                  memesan melalui
                   situs web kami atau melalui aplikasi Gojek.
                 </div>
               </div>
@@ -667,7 +684,8 @@
                 </button>
               </div>
               <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body bg-faq-warna-3">Kami menawarkan berbagai macam minuman, termasuk boba, berbagai jenis tea,
+                <div class="accordion-body bg-faq-warna-3">Kami menawarkan berbagai macam minuman, termasuk boba,
+                  berbagai jenis tea,
                   latte, dan minuman spesial lainnya.
                 </div>
               </div>
@@ -680,7 +698,8 @@
                 </button>
               </div>
               <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body bg-faq-warna-2">Kami menerima pembayaran dengan uang tunai, kartu kredit/debit, dan
+                <div class="accordion-body bg-faq-warna-2">Kami menerima pembayaran dengan uang tunai, kartu
+                  kredit/debit, dan
                   pembayaran digital seperti e-wallet.
                 </div>
               </div>
@@ -694,7 +713,8 @@
                 </button>
               </div>
               <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body bg-faq-warna-1">Anda dapat menghubungi kami melalui +62 891 234 5678 atau mengirimkan email
+                <div class="accordion-body bg-faq-warna-1">Anda dapat menghubungi kami melalui +62 891 234 5678 atau
+                  mengirimkan email
                   dengan menekan tombol Contact. Kami juga aktif di media sosial.
                 </div>
               </div>
@@ -717,9 +737,9 @@
           <h5>Main Menu</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Menu</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Order</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Testimoni</a></li>
+            <li class="nav-item mb-2"><a href="#kategori" class="nav-link p-0 text-muted">Menu</a></li>
+            <li class="nav-item mb-2"><a href="#order" class="nav-link p-0 text-muted">Order</a></li>
+            <li class="nav-item mb-2"><a href="#testimoni" class="nav-link p-0 text-muted">Testimoni</a></li>
           </ul>
         </div>
 
