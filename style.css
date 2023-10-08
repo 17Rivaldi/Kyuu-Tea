@@ -61,6 +61,10 @@ body {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
+
+.nav-link{
+  overflow: hidden;
+}
 /* .card-catMenu:hover h5 {
   color: #3ec5ef;
 } */
@@ -112,9 +116,10 @@ body {
   color: #1cc7ff;
   margin-top: 0px;
   padding-top: 0px;
+  -webkit-text-stroke: 0.5px black;
 }
-h6 {
-  color: grey;
+h6{
+  -webkit-text-stroke: 0.5px black;
 }
 .oc {
   max-width: 550px;
@@ -177,4 +182,22 @@ footer .centered-text {
   flex-grow: 1;
   font-size: 18px;
   text-align: center;
+}
+
+.paralax1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/assets/9702357_4231162.png);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+.paralax2 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/assets/pink-underwater-bubbles-abstract-oil.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
 }
