@@ -115,8 +115,8 @@ body {
   font-weight: bold;
   color: #1cc7ff;
   margin-top: 0px;
-  padding-top: 0px;
-  -webkit-text-stroke: 0.5px black;
+  padding-top: 40px;
+  
 }
 h6{
   -webkit-text-stroke: 0.5px black;
