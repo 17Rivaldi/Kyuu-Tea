@@ -1,0 +1,15 @@
+@function ganti($map, $key) {
+  @return map-get($map, $key);
+}
+
+$backgroundColor: (
+  "warna1": #3fc4ef,
+  "warna2": #ff4b91,
+);
+
+
+.bg-card :hover {
+  transform: scale(1.05);
+}
+
+

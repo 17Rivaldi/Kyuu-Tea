@@ -50,7 +50,7 @@
 
 .judul-fresh {
   color: #3fc4ef;
-  text-shadow: 3px 3px 8px #ff4b91;
+  text-shadow: 3px 3px 8px white;
 }
 
 .gambar-logo {
@@ -165,6 +165,10 @@ h6 {
   margin-right: 0px;
   margin-bottom: 50px;
   margin-left: 0px;
+}
+
+.bg-card :hover {
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=custom-style.css.map */
